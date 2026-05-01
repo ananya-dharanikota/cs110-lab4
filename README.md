@@ -1,6 +1,5 @@
-# cs110-lab4
+# CS 110: Lab 4
 New York Times API &amp; React Intro
-
 
 This project has two parts. Please create a separate directory for each lab part and upload directories to Gradescope. 
 
