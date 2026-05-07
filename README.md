@@ -18,8 +18,9 @@ Here's the documentation for the NYT APIs (you'll only be working with the Popul
 <u>**Guide**</u><br>
 For our application, we need to obtain the data in the background and update the page without refreshing it through JavaScript. There are multiple ways to do this, but we recommend using [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch).
 
-The standard template for a fetch request looks something like this:
-`// specify a url, in this case our web server
+The standard template for a fetch request looks something like this:<br>
+```
+// specify a url, in this case our web server
 
 const url = 
 
@@ -30,7 +31,8 @@ fetch(url)
 })
 .catch(err => {
     // error catching
-console.log(err) })`
+console.log(err) })
+```
 
 However, instead of using .then(), you can use await/async as well.
 
