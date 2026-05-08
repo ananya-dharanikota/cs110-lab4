@@ -1,0 +1,45 @@
+body {
+    font-family: "Helvetica Neue";
+    background-color: rgb(0, 0, 48);
+    color: white;
+}
+
+h1 {
+    font-family: "Helvetica Neue";
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.page-wrapper {
+    width: 100%;
+    max-width: 560px;
+}
+
+.column-right {
+    width: 25%;
+}
+
+.column-middle {
+    width: 50%;
+}
+
+.column-left {
+    width: 25%;
+}
+
+.filter-card {
+    background-color: white;
+    color: black;
+    border: 0.5px solid rgba(116, 144, 204, 0.12);
+    border-radius: 12px;
+    padding: 2rem 2.5rem;
+}
+
+
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
