@@ -1,0 +1,57 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background: #f9f9f7;
+}
+
+h1 { font-size: 22px; font-weight: 500; margin-bottom: 1.5rem; }
+
+.scoreboard {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 1rem;
+}
+
+.score-card {
+  background: #f1f0ec;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  text-align: center;
+  min-width: 80px;
+}
+
+.score-label { font-size: 12px; color: #888; margin-bottom: 4px; }
+.score-value { font-size: 24px; font-weight: 500; }
+
+.status { font-size: 15px; color: #888; margin-bottom: 1rem; }
+
+.board-row { display: flex; gap: 8px; margin-bottom: 8px; }
+
+.square {
+  width: 80px;
+  height: 80px;
+  background: #f1f0ec;
+  border: 0.5px solid #ddd;
+  border-radius: 8px;
+  font-size: 28px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.square:hover { background: #fff; border-color: #bbb; }
+
+button.new-game-btn {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  border: 0.5px solid #ccc;
+  background: transparent;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button.new-game-btn:hover { background: #f1f0ec; }
