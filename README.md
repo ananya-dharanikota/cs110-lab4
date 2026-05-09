@@ -72,3 +72,9 @@ Second, create a Board.jsx file and add the following code we went over in lectu
 5. (1 point Extra Credit) Add at least 1 additional page and incorporate React Routing. You have the freedom to customize the new page.<br>
 It can be an About page where you include info about the team mates working on this lab. 
 ![Part 2 - Image 1](instructions/part2_image1.png)
+
+## Part 1 Screenshots
+
+<img width="2874" height="1482" alt="nyt-mostshared" src="https://github.com/user-attachments/assets/4ddee368-ead2-4c89-b9a1-eb5e04eda86d" />
+<img width="2880" height="1432" alt="nyt-mostemailed" src="https://github.com/user-attachments/assets/da4b7677-73e0-4736-b4b8-747eda1bf36f" />
+<img width="2874" height="1474" alt="nyt-mostviewed" src="https://github.com/user-attachments/assets/ba6ef082-d210-45bc-b0b1-2bc5a2a69f91" />
