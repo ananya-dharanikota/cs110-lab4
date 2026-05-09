@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>NYT Feed</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+    <h1>New York Times Feed</h1>
+    <div class="columns">
+      <div class="column-left">
+        <div class="filter-card">
+          <h2>Filter</h2>
+          <h3>Sort By:</h3>
+          <ul>
+            <li><label><input type="radio" name="sort" value="mostviewed"> Most Viewed</label></li>
+            <li><label><input type="radio" name="sort" value="mostshared" checked> Most Shared</label></li>
+            <li><label><input type="radio" name="sort" value="mostemailed"> Most Emailed</label></li>
+          </ul>
+          <h3>Time Frame:</h3>
+          <ul>
+            <li><label><input type="radio" name="time" value="1"> Day</label></li>
+            <li><label><input type="radio" name="time" value="7"> Week</label></li>
+            <li><label><input type="radio" name="time" value="30" checked> Month</label></li>
+          </ul>
+        </div>
+      </div>
+      <div class="column-middle" id="articles-container">
+        <p class="status-message">Loading...</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
