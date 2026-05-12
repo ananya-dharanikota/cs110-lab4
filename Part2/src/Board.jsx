@@ -27,7 +27,7 @@ function calculateWinner(squares) {
   return null;
 }
 
-export default function Board() {``
+export default function Board() {
   const [xIsNext, setXIsNext] = useState(true);
   const [squares, setSquares] = useState(Array(9).fill(null));
   const [scores, setScores] = useState({ X: 0, O: 0 });
@@ -64,11 +64,20 @@ export default function Board() {``
   return (
     <>
       <h1>Tic Tac Toe</h1>
+
       <div className="scoreboard">
-        <span>X: {scores.X}</span>
-        <span>O: {scores.O}</span>
+        <div className="score-card">
+          <div className="label">X</div>
+          <div className="value">{scores.X}</div>
+        </div>
+        <div className="score-card">
+          <div className="label">O</div>
+          <div className="value">{scores.O}</div>
+        </div>
       </div>
+
       <div className="status">{status}</div>
+
       <div className="board-row">
         <Square value={squares[0]} onSquareClick={() => handleClick(0)} />
         <Square value={squares[1]} onSquareClick={() => handleClick(1)} />
@@ -84,7 +93,10 @@ export default function Board() {``
         <Square value={squares[7]} onSquareClick={() => handleClick(7)} />
         <Square value={squares[8]} onSquareClick={() => handleClick(8)} />
       </div>
-      <button onClick={handleNewGame}>New Game</button>
+
+      <button className="new-game" onClick={handleNewGame}>
+        New Game
+      </button>
     </>
   );
 }

@@ -25,7 +25,7 @@ The standard template for a fetch request looks something like this:<br>
 const url = 
 
 fetch(url)
-   .then(res => res.json()) .then(data => {  
+   .then(res => res.json()) .then(data => {
    // do something with data
 
 })
@@ -62,7 +62,7 @@ In summary, your page needs to meet the following criteria:
 We also highly encourage you document your code with the use of JSDoc (simple [JSDoc function header annotations](https://jsdoc.app/tags-returns.html) [would suffice](https://jsdoc.app/tags-returns.htmlhttps://jsdoc.app/tags-returns.html)) especially for any code you write whose purpose may not be immediately obvious to the reader.
 
 ## Part 2 - Getting Started with React
-First, install React (follow instructions for [MacOS](https://www.geeksforgeeks.org/installation-guide/how-to-install-reactjs-on-macos/) or [Windows](https://www.geeksforgeeks.org/installation-guide/how-to-install-reactjs-on-windows/)). If you have trouble with installation, then get started by using [CodeSandBox](https://codesandbox.io/) and visit office hours so we can help  you with installation. 
+First, install React (follow instructions for [MacOS](https://www.geeksforgeeks.org/installation-guide/how-to-install-reactjs-on-macos/) or [Windows](https://www.geeksforgeeks.org/installation-guide/how-to-install-reactjs-on-windows/)). If you have trouble with installation, then get started by using [CodeSandBox](https://codesandbox.io/) and visit office hours so we can help you with installation. 
 
 Second, create a Board.jsx file and add the following code we went over in lecture. Complete this React example to implement the Tic Tac Toe Game. It should have the following features:
 1. Keep track of players turn. You can assume X always starts the game. 
@@ -72,3 +72,13 @@ Second, create a Board.jsx file and add the following code we went over in lectu
 5. (1 point Extra Credit) Add at least 1 additional page and incorporate React Routing. You have the freedom to customize the new page.<br>
 It can be an About page where you include info about the team mates working on this lab. 
 ![Part 2 - Image 1](instructions/part2_image1.png)
+
+## Screenshots
+**Part 1**
+![Part 1 - Image 1](screenshots/part1_image1.png)
+![Part 1 - Image 2](screenshots/part1_image2.png)
+![Part 1 - Image 3](screenshots/part1_image3.png)
+
+**Part 2**
+![Part 2 - Image 1](screenshots/part2_image1.png)
+![Part 2 - Image 2](screenshots/part2_image2.png)
